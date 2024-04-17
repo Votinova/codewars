@@ -4,7 +4,7 @@ If you are calculating complex things or execute time-consuming API calls, you s
 
 Usage example:
 
-var complexFunction = function(arg1, arg2) { /* complex calculation in here */ };
+var complexFunction = function(arg1, arg2) 
 var cachedFunction = cache(complexFunction);
 
 cachedFunction('foo', 'bar'); // complex function should be executed
@@ -15,7 +15,7 @@ cachedFunction('foo', 'baz'); // should be executed, because the method wasn't i
 
 Пример использования:
 
-var complexFunction = function(arg1, arg2) { /* complex calculation in here */ };
+var complexFunction = function(arg1, arg2) 
 var cachedFunction = cache(complexFunction);
 
 cachedFunction('foo', 'bar'); // complex function should be executed
